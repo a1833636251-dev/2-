@@ -1,5 +1,3 @@
-
-
 # 2-$filePath = "C:\Users\Lenovo\3dm-guide\index.html"
 $fileBytes = [System.IO.File]::ReadAllBytes($filePath)
 $encoded = [System.Convert]::ToBase64String($fileBytes)
